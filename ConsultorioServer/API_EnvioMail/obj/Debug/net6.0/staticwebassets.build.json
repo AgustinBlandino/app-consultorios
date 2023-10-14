@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fKso6MZO7GzFDkNN/hcgyks5zYNdOcPG0RF8fPvoifE=",
+  "Source": "API_EnvioMail",
+  "BasePath": "_content/API_EnvioMail",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

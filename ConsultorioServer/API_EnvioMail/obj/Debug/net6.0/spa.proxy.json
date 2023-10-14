@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "",
+"LaunchCommand": "",
+"WorkingDirectory": "C:\\Users\\Administrator\\Desktop\\Angular\\app-consultorios\\ConsultorioServer\\API_EnvioMail",
+"MaxTimeoutInSeconds": "120"
+}
+}
