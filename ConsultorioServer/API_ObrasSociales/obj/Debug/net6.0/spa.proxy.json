@@ -2,7 +2,7 @@
 "SpaProxyServer": {
 "ServerUrl": "",
 "LaunchCommand": "",
-"WorkingDirectory": "E:\\Documents\\Codigo Fuente\\omarfunctions\\ConsultorioServer\\API_ObrasSociales",
+"WorkingDirectory": "C:\\Users\\Administrator\\Desktop\\Angular\\app-consultorios\\ConsultorioServer\\API_ObrasSociales",
 "MaxTimeoutInSeconds": "120"
 }
 }

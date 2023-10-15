@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_ObrasSociales", "API_ObrasSociales\API_ObrasSociales.csproj", "{E661B49C-84E9-43CA-B596-8315AAEE93CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_ObrasSociales", "API_ObrasSociales\API_ObrasSociales.csproj", "{E661B49C-84E9-43CA-B596-8315AAEE93CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_EnvioMail", "API_EnvioMail\API_EnvioMail.csproj", "{FC982746-144E-4806-88E7-C4B14AABC098}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E661B49C-84E9-43CA-B596-8315AAEE93CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E661B49C-84E9-43CA-B596-8315AAEE93CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E661B49C-84E9-43CA-B596-8315AAEE93CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC982746-144E-4806-88E7-C4B14AABC098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC982746-144E-4806-88E7-C4B14AABC098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC982746-144E-4806-88E7-C4B14AABC098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC982746-144E-4806-88E7-C4B14AABC098}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
