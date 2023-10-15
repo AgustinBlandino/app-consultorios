@@ -1,0 +1,29 @@
+<div class="container-fluid card border-success my-5 align-middle">
+  <div class="d-flex row justify-content-center align-middle">
+    <div class="col-md-6 bg-success-subtle p-4 align-middle">
+      <h2 class="text-center">
+        Funcionamiento del sistema de turnos Online:
+      </h2>
+      <hr>
+      <p>
+        *Como primera instancia deberá rellenar el formulario presentado a continación:
+      </p>
+      <p>*Una vez ya <strong>completado</strong> el formulario, la doctora aprobará o se pondrá en contacto con uds para
+        realizar la confirmación del turno.
+      </p>
+      <p>*Es importante que brinde su email o telefono para poder enviar la confirmación por ese medio en caso de ser
+        necesario.
+      </p>
+      <p>*Si usted ya cuenta con un <strong>turno confirmado</strong>, por favor dirijase a <a href="#"
+          [routerLink]="['/mis-turnos']">Mis Turnos</a>
+      </p>
+      <hr>
+      <p class="text-center">
+        Gracias!
+      </p>
+    </div>
+    <div class=" col-md-6 ">
+      <form-pedir-turno class=" m-0"></form-pedir-turno>
+    </div>
+  </div>
+</div>

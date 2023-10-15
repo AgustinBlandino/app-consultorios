@@ -1,0 +1,72 @@
+<div class="container">
+  <div class="d-flex row justify-content-center ">
+    <div class="col-md-6 col-sm-12">
+      <h2 class="text-center pt-4 ">Reservar Turno Online</h2>
+      <hr>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-sm-12">
+        <mat-form-field class="w-100" appearance="outline">
+          <mat-label>Nombre y Apellido:</mat-label>
+          <input matInput placeholder="Nombre y Apellido:" [(ngModel)]="nombreYApellido">
+        </mat-form-field>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <mat-form-field class="w-100" appearance="outline">
+          <mat-label>Email:</mat-label>
+          <input type="email" matInput placeholder="Email: " [(ngModel)]="email">
+        </mat-form-field>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <mat-form-field class="w-100" appearance="outline">
+          <mat-label>DNI:</mat-label>
+          <input type="number" matInput placeholder="DNI" [(ngModel)]="dni">
+        </mat-form-field>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <mat-form-field class="w-100" appearance="outline">
+          <mat-label>Obra Social</mat-label>
+          <mat-select [formControl]="selectedObraSocial" [(ngModel)]="obraSocial">
+            <mat-option *ngFor="let obraSocial of obrasSociales"
+              [value]="obraSocial">{{obraSocial.descripcion}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <mat-form-field class="w-100" appearance="outline">
+          <mat-label>Nro Teléfono:</mat-label>
+          <input type="number" matInput placeholder="Nro Teléfono:" [(ngModel)]="nroTelefono">
+        </mat-form-field>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <mat-form-field class="w-100" appearance="outline">
+          <mat-label>Dia:</mat-label>
+          <mat-select [(ngModel)]="dia">
+            <mat-option value="two">Lunes</mat-option>
+            <mat-option value="two">Martes</mat-option>
+            <mat-option value="two">Miercoles</mat-option>
+            <mat-option value="two">Jueves</mat-option>
+            <mat-option value="two">Viernes</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <mat-form-field class="w-100" appearance="outline">
+          <mat-label>Horario:</mat-label>
+          <mat-select [(ngModel)]="hora">
+            <mat-option value="one">First option</mat-option>
+            <mat-option value="two">Second option</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+        <mat-checkbox class="text-center fs-1" [(ngModel)]="disponibilidadSesionOnline">Disponibilidad para sesión
+          virtual.</mat-checkbox>
+      </div>
+      <div class="col-md-6 col-sm-12 d-flex justify-content-center pb-4">
+
+        <button mat-raised-button color="primary" (click)="enviarTurno()">Reservar Turno</button>
+      </div>
+    </div>
+  </div>
+</div>

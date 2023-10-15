@@ -1,0 +1,36 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Onest:wght@500&family=Playfair+Display:wght@400;500&family=Righteous&family=Titan+One&display=swap');
+</style>
+<header class=>
+  <nav class="w-100 navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container-fluid p-0 m-4">
+      <div class="d-flex flex-row align-items-center justify-content-center w-100">
+        <div class="col-sm-6 text-center">
+          <p class="m-0 fs-6">Consultorio Ficticio</p>
+        </div>
+        <div class=" col-sm-2 text-center">
+          <a href="#" class="text-decoration-none text-dark" [routerLink]="['/home']">
+            <p class="m-0">Sobre Mí</p>
+          </a>
+        </div>
+        <div class=" col-sm-2 text-center">
+          <a href="#" class="text-decoration-none text-dark" [routerLink]="['/mis-turnos']">
+            <p class="m-0">Mis Turnos</p>
+          </a>
+        </div>
+        <div class=" col-sm-2 text-center">
+          <a href="#" class="text-decoration-none text-dark" [routerLink]="['/pedir-turno']">
+            <p class="m-0">Pedir Turno</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<footer class="fixed-bottom bg-success p-2 text-dark bg-opacity-25">
+  <div class="container">
+    <div class="row p-2">
+      <h3 class="text-center text-light m-0"> © Consultorio Ficticio - 2023</h3>
+    </div>
+  </div>
+</footer>
